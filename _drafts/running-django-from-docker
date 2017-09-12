@@ -39,3 +39,5 @@ System check identified no issues (0 silenced).
 docker-compose run web python manage.py migrate --settings=composeexample.settings.production
 
 What does this give us? We are not done yet, right!?
+
+docker-compose -f docker-compose-prod.yml up
